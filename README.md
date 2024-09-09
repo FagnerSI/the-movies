@@ -1,4 +1,4 @@
-# The Moviea
+# The Movies
 
 Este é um projeto React criado usando [Create React App](https://create-react-app.dev/). Ele serve como uma aplicação básica com estrutura inicial e dependências configuradas para desenvolvimento e construção.
 
@@ -11,7 +11,7 @@ Este é um projeto React criado usando [Create React App](https://create-react-a
 
 ## 📝 Sobre o Projeto
 
-O projeto **the-movies-s** é uma aplicação web construída em React. Ele é desenvolvido para fornecer uma interface simples e eficiente para usuários buscarem, ver detalhes e favoritarem filmes consumindo a API do [themoviedb.org](https://developer.themoviedb.org/reference/intro/getting-started). O projeto centraliza duas outras aplicações: [movies-search](https://github.com/FagnerSI/movies-search.git) e [movies-details](https://github.com/FagnerSI/movies-details.git).
+O projeto **the-movies** é uma aplicação web construída em React. Ele é desenvolvido para fornecer uma interface simples e eficiente para usuários buscarem, ver detalhes e favoritarem filmes consumindo a API do [themoviedb.org](https://developer.themoviedb.org/reference/intro/getting-started). O projeto centraliza duas outras aplicações: [movies-search](https://github.com/FagnerSI/movies-search.git) e [movies-details](https://github.com/FagnerSI/movies-details.git).
 
 Acesse o [link do figma](https://www.figma.com/design/HNcdCA7ahAHMTzrcQT07mV/Search-Movies?m=auto&t=zdbxSGZss3fulLU2-1) e veja o projeto de interface.
 
