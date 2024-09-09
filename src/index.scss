@@ -1,0 +1,18 @@
+@import './styles/variables';
+
+@include google-font('Montserrat:ital,wght@0,100..900;1,100..900');
+
+* {
+  margin: 0;
+  @include font-family('Montserrat');
+}
+body {
+  background-color: var(--background-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

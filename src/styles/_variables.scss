@@ -1,0 +1,25 @@
+@mixin google-font($family) {
+    @import url("https://fonts.googleapis.com/css2?family=#{$family}");
+}
+
+@mixin font-family($font-name, $fallback: sans-serif) {
+    font-family: $font-name, $fallback;
+}
+
+:root {
+    --primary-color: #032452;
+    --secondary-color: #82E4FF;
+    --background-color: #F3F3F3;
+    --pure-black-color: #000000;
+    --pure-white-color: #ffffff;
+    --primary-font-color: #464545;
+    --secondary-font-color: #858585;
+    --light-font-color: #B5B6B7;
+    --font-extra-bold: 800;
+    --font-bold: 700;
+    --font-semi-bold: 600;
+    --font-medium: 500;
+    --font-regular: 400;
+    --font-light: 300;
+    --default-radius: 8px;
+}
