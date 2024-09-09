@@ -8,6 +8,7 @@ Este é um projeto React criado usando [Create React App](https://create-react-a
 2. [Funcionalidades](#funcionalidades)
 3. [Pré-requisitos](#pré-requisitos)
 4. [Instalação](#instalação)
+5. [Micro front](#micro-front)
 
 ## 📝 Sobre o Projeto
 
@@ -54,3 +55,10 @@ Após ter estas aplicações incializadas, siga os passos abaixo para rodar o pr
 
 4. Inicie o servidor de desenvolvimento:
    npm start
+
+## Micro front
+  
+A aplicação the movies usa a estutura de micro frontends, onde ela é a aplicação central que consome duas aplicações remotas. As aplicacões remotas são:
+- [movies-search](https://github.com/FagnerSI/movies-search.git) - aplicação de busca de filmes e listagem de favoritos
+- [movies-details](https://github.com/FagnerSI/movies-details.git) - aplicação que exibe detalhes de um filme e permite adicona-lo a lista de favoritos
+
