@@ -1,4 +1,4 @@
-# Projeto Nome
+# The Moviea
 
 Este é um projeto React criado usando [Create React App](https://create-react-app.dev/). Ele serve como uma aplicação básica com estrutura inicial e dependências configuradas para desenvolvimento e construção.
 
