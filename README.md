@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Projeto Nome
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto React criado usando [Create React App](https://create-react-app.dev/). Ele serve como uma aplicação básica com estrutura inicial e dependências configuradas para desenvolvimento e construção.
 
-## Available Scripts
+## 📋 Índice
 
-In the project directory, you can run:
+1. [Sobre o Projeto](#sobre-o-projeto)
+2. [Funcionalidades](#funcionalidades)
+3. [Pré-requisitos](#pré-requisitos)
+4. [Instalação](#instalação)
 
-### `npm start`
+## 📝 Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O projeto **the-movies-s** é uma aplicação web construída em React. Ele é desenvolvido para fornecer uma interface simples e eficiente para usuários buscarem, ver detalhes e favoritarem filmes consumindo a API do [themoviedb.org](https://developer.themoviedb.org/reference/intro/getting-started). O projeto centraliza duas outras aplicações: [movies-search](https://github.com/FagnerSI/movies-search.git) e [movies-details](https://github.com/FagnerSI/movies-details.git).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Acesse o [link do figma](https://www.figma.com/design/HNcdCA7ahAHMTzrcQT07mV/Search-Movies?m=auto&t=zdbxSGZss3fulLU2-1) e veja o projeto de interface.
 
-### `npm test`
+## 🚀 Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Pesquisa de filmes.
+- Ver detalhes de filmes.
+- Adicionar filmes a lista de favoritos.
+- Listagem de filmes favoritos.
+- Integração com API externa.
 
-### `npm run build`
+## 🛠 Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para executar o projeto localmente, você precisará das seguintes ferramentas instaladas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Node.js](https://nodejs.org/en/) (versão 14 ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/) (gerenciador de pacotes)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Instalação
 
-### `npm run eject`
+Antes de iniciar está aplicação, siga os passos de instalação e inicialização dos seguintes projetos:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [movies-search](https://github.com/FagnerSI/movies-search.git)
+- [movies-details](https://github.com/FagnerSI/movies-details.git)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Após ter estas aplicações incializadas, siga os passos abaixo para rodar o projeto em sua máquina local:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Clone o repositório:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```bash
+   git clone https://github.com/FagnerSI/movies-search.git
 
-## Learn More
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Entre no diretório do projeto:
+   cd the-movies-host
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Instale as dependências:
+   npm install
+
+4. Inicie o servidor de desenvolvimento:
+   npm start
